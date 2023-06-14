@@ -1,0 +1,24 @@
+html{
+    background-color: lightgoldenrodyellow;
+    color: tan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    background-color: brown;
+}
+
+li{
+    transition:transform ease-out .3s;
+    margin-left: -40px;
+    list-style:none;
+    list-style-position: inside;
+    text-align: center;
+    background-blend-mode: luminosity;
+    outline-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li:hover{
+    transform: scale(1.2);
+}
